@@ -1,0 +1,132 @@
+
+body{
+    scroll-behavior: smooth;
+}
+#home{
+   
+    background-image: url(./imgs/images1.jpg);
+    width: 100%;
+    height: 660px;
+ 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.link:hover{
+    color: #D62E33;
+}
+
+#homes:hover{
+    color: #D62E33;
+}
+
+.home-overlay{
+    background-color: rgba(214, 46, 51, 0.6);;
+width: 100%;
+
+height: 100%;
+
+position: absolute;
+}
+.left-menu{
+    background: #111;
+height: 100%;
+display: flex;
+flex-direction: column;
+position: fixed;
+width: 0px;
+overflow: hidden;
+z-index: 2;
+}
+.left-menu a{
+    padding:20px 0px 20px 32px;;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.red{
+    color: 
+    RGB(214, 46, 51);
+}
+.togglee{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+text-align: center;
+}
+.count-down{
+    background-image: url(./imgs/images1\ \(1\).jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.layout{
+    background-color: rgba(214, 46, 51, 0.6);;
+    width: 100%;
+    
+    height: 100%;
+    
+   
+}
+.layout span{
+    font-weight: 500;
+    font-size: 30px;
+}
+.layout div{
+    font-weight: 500;
+    font-size: 30px;
+}
+.toggle{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+
+}
+#sliderDown .inner{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+#sliderDown .first {
+    display: block;
+}
+.social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+textarea {
+    height: 200px;
+    resize: vertical;
+}
+#chars {
+    font-size: 20px;
+    color: #D62E33;
+}
+.btn{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.closebtn{ 
+    display: flex;
+    justify-content: center;
+}
+.closebtn:hover{
+    color: #D62E33;
+}
